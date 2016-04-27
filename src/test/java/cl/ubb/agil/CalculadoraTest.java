@@ -37,5 +37,14 @@ public class CalculadoraTest {
 		assertThat(resultado,is(127));
 	}
 	
+	@Test
+	public void MenosDiezMenos5(){
+		calculadora = new Calculadora();
+		
+		int resultado = calculadora.restar(-10, 5);
+		
+		assertThat(resultado,is(15));
+	}
+	
 
 }
