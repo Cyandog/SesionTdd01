@@ -48,6 +48,7 @@ public class CalculadoraTest {
 	
 	@Test
 	public void ExpresionTresMasCuatroMasSieteEsCatorce(){
+		calculadora = new Calculadora();
 		
 		int resultado = calculadora.sumarExpresion("3+4+7");
 		
