@@ -43,7 +43,7 @@ public class CalculadoraTest {
 		
 		int resultado = calculadora.restar(-10, 5);
 		
-		assertThat(resultado,is(15));
+		assertThat(resultado,is(-15));
 	}
 	
 
