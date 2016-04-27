@@ -28,6 +28,14 @@ public class CalculadoraTest {
 		assertThat(resultado,is(6));
 	}
 	
+	@Test
+	public void DocientosMenosSetentaYTres(){
+		calculadora = new Calculadora();
+		
+		int resultado = calculadora.restar(200, 73);
+		
+		assertThat(resultado,is(127));
+	}
 	
 
 }
