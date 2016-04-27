@@ -46,5 +46,12 @@ public class CalculadoraTest {
 		assertThat(resultado,is(-15));
 	}
 	
+	@Test
+	public void ExpresionTresMasCuatroMasSieteEsCatorce(){
+		
+		int resultado = calculadora.sumarExpresion("3+4+7");
+		
+		assertThat(resultado,is(14));
+	}
 
 }
